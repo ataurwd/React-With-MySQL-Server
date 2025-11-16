@@ -54,7 +54,7 @@ app.get("/contacts", (req, res) => {
     if (err) {
       return res.status(500).json({ message: "Database Error", error: err });
     }
-    res.json(results); // All data return
+    res.json(results);
   });
 });-
 
