@@ -46,7 +46,7 @@ app.post("/contact", (req, res) => {
   });
 });
 
-// GET API route to fetch all contacts
+// GET API route to fetch all 
 app.get("/contacts", (req, res) => {
   const sql = "SELECT * FROM contacts";
 
